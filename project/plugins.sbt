@@ -1,1 +1,3 @@
-addSbtPlugin("org.jetbrains" % "sbt-ide-settings" % "1.1.0")
+addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.7.0")
+
+libraryDependencies += "org.scala-js" %% "scalajs-env-nodejs" % "1.0.0"
